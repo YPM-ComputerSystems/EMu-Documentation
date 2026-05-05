@@ -1,10 +1,10 @@
-# Exporting Taxonomy Records from EMu 9.1
+# Exporting Taxonomy Records from EMu 9.0
 
-A stepwise procedure for exporting records from the Taxonomy module (`etaxonomy`) in Axiell EMu 9.1. Covers the GUI workflow with notes on server-side alternatives.
+A stepwise procedure for exporting records from the Taxonomy module (`etaxonomy`) in Axiell EMu 9.0. Covers the GUI workflow with notes on server-side alternatives.
 
 ## Prerequisites
 
-- EMu 9.1 client installed and configured against the target registry
+- EMu 9.0 client installed and configured against the target registry
 - User account with read access to the Taxonomy module and the Export operation enabled in the Operations security profile
 - Write access to the target output location (local filesystem or mapped network share)
 - A clearly defined record set: known search criteria, a saved search, or a saved group
@@ -123,4 +123,4 @@ Field lists and queries should be version-controlled with the rest of your ETL.
 - **Synonyms and common names** sit on attached records or in `_tab` fields depending on local configuration. Confirm the registry's modelling before assuming a single field carries the data you need.
 - **Attachments (multimedia, citations)** are not embedded in CSV/Tab exports. XML exports include attachment payloads only when those fields are explicitly selected.
 - **Long-running exports** can be interrupted by client timeouts on slow links. Run heavy exports from a workstation on the same network segment as the EMu server, or use `texexport` server-side.
-- **Verify against the Axiell documentation** for your specific 9.1 build — minor UI labels and menu paths can differ between point releases and locally customised registries.
+- **Verify against the Axiell documentation** for your specific 9.0 build — minor UI labels and menu paths can differ between point releases and locally customised registries.
