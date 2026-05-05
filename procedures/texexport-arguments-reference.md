@@ -2,7 +2,7 @@
 
 Based on the authoritative KE Texpress documentation hosted by Axiell at
 <https://emu.axiell.com/downloads/Texpress/texexport.pdf>. EMu's `etaxonomy` and
-all other modules are Texpress tables, so this is the same utility EMu 9.1
+all other modules are Texpress tables, so this is the same utility EMu 9.0
 ships. EMu installs may carry locally added export formats (configured via the
 `~texpress/etc/export` file, see below) — those are extensions on top of what
 follows, not changes to the base flags.

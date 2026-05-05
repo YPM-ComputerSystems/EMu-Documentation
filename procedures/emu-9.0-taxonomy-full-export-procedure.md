@@ -1,4 +1,4 @@
-# Full Export of Taxonomy Records and Fields from EMu 9.1
+# Full Export of Taxonomy Records and Fields from EMu 9.0
 
 A procedure for exporting **all records** in the Taxonomy module (`etaxonomy`) with **all fields** populated. Common use cases: cold backup outside the EMu backup regime, migration, bulk transformation pipelines (DwC, Linked Art, RDF), full-text indexing.
 
@@ -115,4 +115,4 @@ Same checks as Procedure A step 9: well-formed check, record count, spot checks,
 - **Multimedia is not in this export.** Binary attachments live in `emultimedia`. A full taxonomy export captures the IRN references; the binaries themselves need a separate `emultimedia` export.
 - **Locking.** Long reads do not block writes in Texpress, but very long-held read positions interact poorly with reorganisation jobs. Schedule accordingly.
 - **Auditability.** Full exports are sensitive. Log: who ran it, when, against which environment, where the output landed, and the checksum. Treat the artefact as restricted if any record carries sensitive locality, embargoed taxa, or otherwise protected content.
-- **Verify against the Axiell documentation for your specific 9.1 build** — UI labels, menu paths, and `texexport` flag names can vary between point releases and locally customised registries.
+- **Verify against the Axiell documentation for your specific 9.0 build** — UI labels, menu paths, and `texexport` flag names can vary between point releases and locally customised registries.

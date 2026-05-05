@@ -1,4 +1,4 @@
-# Exporting All Taxonomy Data with `texexport` from EMu 9.1
+# Exporting All Taxonomy Data with `texexport` from EMu 9.0
 
 A stepwise procedure for a full-table, full-schema export of `etaxonomy` from the EMu server using the Texpress `texexport` utility. This is the recommended path for backup, migration, and bulk transformation pipelines on any non-trivial registry.
 
@@ -157,4 +157,4 @@ Once the export is verified and archived in its destination, remove the working 
 - **Subset exports.** To export a filtered subset, add a `-q` (or local equivalent) Texpress query argument. Document the filter alongside the output so the export is reproducible.
 - **Format alternatives.** CSV and tab-delimited outputs are available but lossy for `_tab` fields and references. They are appropriate for narrow projections, not full-schema dumps.
 - **Permission layer.** `texexport` bypasses EMu's record- and field-level security. This is correct for migration-grade dumps and unsafe for ad hoc reporting; the artefact must be handled accordingly.
-- **Verify against the Axiell / Texpress documentation for your specific 9.1 build.** Flag names, default format identifiers, and environment-script paths can differ between point releases and locally customised installs.
+- **Verify against the Axiell / Texpress documentation for your specific 9.0 build.** Flag names, default format identifiers, and environment-script paths can differ between point releases and locally customised installs.
