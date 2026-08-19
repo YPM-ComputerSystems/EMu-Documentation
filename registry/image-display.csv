@@ -1,0 +1,38 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Key7,Value
+Group,Default,Table,eaccessionlots,Image Display,NteType_tab,NOT NULL,notes.gif
+Group,Default,Table,ebibliography,Image Display,NotNotes,NOT NULL,notes.gif
+Group,Default,Table,ecatalogue,Image Display,CatLatitudeDecLocal,NOT NULL,georef.gif
+Group,Default,Table,ecatalogue,Image Display,EADObjectType,Archives EAD,archive-record.gif
+Group,Default,Table,ecatalogue,Image Display,NteType_tab,NOT NULL,notes.gif
+Group,Default,Table,ecatalogue,Image Display,SecRecordStatus,NULL,access-public.gif
+Group,Default,Table,ecatalogue,Image Display,SecRecordStatus,Restricted-from-CCD,access-restricted.gif;
+Group,Default,Table,ecatalogue,Image Display,SecRecordStatus,Restricted-from-YFAD,access-restricted.gif
+Group,Default,Table,ecatalogue,Image Display,SecRecordStatus,Restricted-locality,locality-restricted.gif
+Group,Default,Table,ecatalogue,Image Display,SecRecordStatus,Retired,access-restricted.gif;
+Group,Default,Table,ecollectionevents,Image Display,LatPreferredCentroidLatDec,NOT NULL,georef.gif
+Group,Default,Table,ecollectionevents,Image Display,NteType_tab,NOT NULL,notes.gif
+Group,Default,Table,ecollectionevents,Image Display,SecRecordStatus,Restricted-from-CCD,access-restricted.gif;
+Group,Default,Table,ecollectionevents,Image Display,SecRecordStatus,Restricted-locality,locality-restricted.gif
+Group,Default,Table,eloans,Image Display,NteType_tab,NOT NULL,notes.gif
+Group,Default,Table,emultimedia,Image Display,DetCoverage,NOT NULL,yale-dam.gif
+Group,Default,Table,emultimedia,Image Display,NotNotes,NOT NULL,notes.gif
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,NULL,access-public.gif
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,Restricted-from-CCD,access-restricted.gif;
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,Restricted-from-YFAD,access-restricted.gif
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,Retired,access-restricted.gif;
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,Unused Number,access-restricted.gif;
+Group,Default,Table,eparties,Image Display,NteType_tab,NOT NULL,notes.gif
+Group,Default,Table,etaxonomy,Image Display,NteType_tab,NOT NULL,notes.gif
+Group,Default,Table,ecatalogue,Image Display,SecRecordStatus,Restricted-rights,access-restricted.gif
+Group,Default,Table,ecollectionevents,Image Display,SecRecordStatus,Restricted-rights,access-restricted.gif;
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,Restricted-rights,access-restricted.gif;
+Group,Default,Table,ecatalogue,Image Display,MulMultiMediaRef_tab,NOT NULL,has-asset.gif
+Group,Default,Table,etaxonomy,Image Display,MulMultiMediaRef_tab,NOT NULL,has-asset.gif
+Group,Default,Table,ecollectionevents,Image Display,MulMultiMediaRef_tab,NOT NULL,has-asset.gif
+Group,Default,Table,eaccessionlots,Image Display,MulMultiMediaRef_tab,NOT NULL,has-asset.gif
+Group,Default,Table,eevents,Image Display,MulMultiMediaRef_tab,NOT NULL,has-asset.gif
+Group,Default,Table,eloans,Image Display,MulMultiMediaRef_tab,NOT NULL,has-asset.gif
+Group,Default,Table,econservation,Image Display,MulMultiMediaRef_tab,NOT NULL,has-asset.gif
+Group,Default,Table,ebibliography,Image Display,MulMultiMediaRef_tab,NOT NULL,has-asset.gif
+Group,Default,Table,eparties,Image Display,MulMultiMediaRef_tab,NOT NULL,has-asset.gif
+Group,Default,Table,eparties,Image Display,AddMailList_tab,NOT NULL,lod.gif
